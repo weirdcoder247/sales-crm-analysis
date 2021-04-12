@@ -10,6 +10,8 @@
 # Import Packages
 import pandas as pd
 import os
+import matplotlib
+import seaborn as sns
 
 # Change Directory
 os.chdir(r'C:\Users\dhruv\Documents\UrbanPiper\02_data')
@@ -38,6 +40,6 @@ df.count()
 
 # Univariate Report
 
-# Bi-variate Report
+# Bivariate Report
 
-#
+# Multivariate Report
