@@ -1,0 +1,58 @@
+deferred > low order volume > showcase better case studies of customers who immediately saw rise in order volume post using UPs xyz product offering
+
+
+
+
+for recommeding which city to focus on we should definitely be looking at the deferred deals since there was interest shown by the lead but didn't convert into revenue due to:
+    - found better deal
+    - happy with competitor
+    - cash crunch now. monitor info channels to see if the status changes
+
+
+
+
+
+1.	Which cities should we be focusing more on and why?
+    - for recommeding which city to focus on we should definitely be looking at the deferred deals since there was interest shown by the lead but didn't convert into revenue due to:
+        - found better deal
+        - happy with competitor
+        - cash crunch now. monitor info channels to see if the status changes
+
+2.	How many deals should be assigned to a sales rep to close 10-15 deals in a month?
+    - Might need to make assumptions on certain parameters like efficiency/productivity of each sales rep...
+    - Check historically how well have reps done on avg
+    - Check for monthly, yearly seasonality
+    - Account for outlier sales reps. These could incur in creating anomalies and setting absurd targets. Let outliers (good or bad) be outliers
+    - How to set an upper limit on how many deals can a sales rep handle in a month?
+    - What is the avg time in days invested by a sales rep per deal in a month?
+3.	Assuming one person can close up to 10-15 deals in a month, how many salespeople will you need to close 10000 outlets in a year? From a company point of view, it is desirable to have the least amount of salespeople to perform this job efficiently.
+
+
+
+KPIs:
+Avg time to Win a Deal
+# Deals Handled
+# Deals Won
+# Avg Deal Handling Time
+
+
+
+
+
+misc things done so far:
+    - data cleaning
+    - age in days field seems incorrect or my understanding is off at the moment. So using update-create datediff to get the age of the deal as of update timestamp
+    - EDA
+    - Missing value treatment
+    - Feature Generation
+    - Deal Stage
+        - Remapping
+        - Deal Stage Flow Chart TBD
+        - Deal Stage order
+        - Open Deal > Deal Stage Order less than 7
+        -
+
+Assumptions:
+    - Understanding of Sales cycle from stage 1 to stage 10
+    - Didn't see any stage which suggested that the touchpoint was a repeat contact instead of a new/fresh lead/deal
+    - (Hypothesis?) We should focus on Cities having more Open Leads (as per above definition). Can this be wrong?

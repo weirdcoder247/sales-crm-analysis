@@ -1,0 +1,21 @@
+Deal_Stage,Deal_Stage_2,Deal_Stage_Order
+New,New Lead,1
+Contact made,Contact Made,2
+Contact Made,Contact Made,2
+Right Contact Made,Contact Made,2
+Demo Done,Demo,3
+Proposal Sent,Proposal,4
+In Negotiation,Negotiation,5
+Agreement Sent,Agreement Sent,6
+Lost,Lost,7
+Won,Won,7
+Deal Sealed,Won,7
+Deal Deferred,Deferred,8
+Deferred,Deferred,8
+Signed up for integration,Signed up for integration,8
+POS Deferred our Integration,POS Integration Deferred,9
+Actively Onboaring Merchants,Onboarding Merchants,9
+Actively developing,Product Development,9
+Development Complete,Development Complete,10
+POS Churned from UrbanPiper,POS Churned,11
+Dormant Dev Complete Partners,Dormant Dev Complete Partners?,?
